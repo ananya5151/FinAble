@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "button-type": "off",
+    "no-protocol-relative-urls": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "background-color: color-mix(in srgb-linear, color percentage, color percentage)",
+          "min-height: fit-content"
+        ]
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 117",
+    "not firefox <= 117"
+  ]
+}
